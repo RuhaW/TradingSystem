@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ieor_homework7"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Tests\;CMake Files\Tests\lib\;CMake Files\Tests\lib\googletest\;CMake Files\Tests\lib\googletest\cmake\;CMake Files\Tests\tests\;CMake Files\TradingSystem\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ieorhomework7">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/ieorhomework7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 ieorhomework7"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ieorhomework7/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/ieorhomework7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 ieorhomework7/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TradingStrategy">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libTradingStrategy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 TradingStrategy"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TradingStrategy/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libTradingStrategy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 TradingStrategy/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OrderManager">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libOrderManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 OrderManager"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OrderManager/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libOrderManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 OrderManager/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Order">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libOrder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 Order"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Order/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libOrder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 Order/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MDReader">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libMDReader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 MDReader"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MDReader/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libMDReader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 MDReader/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MarketSimulator">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libMarketSimulator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 MarketSimulator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MarketSimulator/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libMarketSimulator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 MarketSimulator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BookBuilder">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libBookBuilder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 BookBuilder"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BookBuilder/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libBookBuilder.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 BookBuilder/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BookUpdate">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libBookUpdate.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 BookUpdate"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BookUpdate/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libBookUpdate.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 BookUpdate/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AppBase">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libAppBase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 AppBase"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AppBase/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/libAppBase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 AppBase/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/TradingSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/RunTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 RunTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests/fast">
+				<Option output="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/RunTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/include"/>
+					<Add directory="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 RunTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/Tests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/Tests/tests/SomeTests.cpp">
+			<Option target="RunTests"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/AppBase.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="AppBase"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/AppBase.h">
+			<Option target="ieorhomework7"/>
+			<Option target="AppBase"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/BookBuilder.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="BookBuilder"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/BookBuilder.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/BookUpdate.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="BookUpdate"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/BookUpdate.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/MDReader.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="MDReader"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/MDReader.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/MarketSimulator.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="MarketSimulator"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/MarketSimulator.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="Order"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/OrderManager.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="OrderManager"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/OrderManager.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/TradingStrategy.cpp">
+			<Option target="ieorhomework7"/>
+			<Option target="TradingStrategy"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/TradingStrategy.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/main.cpp">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/my_unit_test.cpp">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/my_unit_test.h">
+			<Option target="ieorhomework7"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/Tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/Tests/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TradingSystem\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

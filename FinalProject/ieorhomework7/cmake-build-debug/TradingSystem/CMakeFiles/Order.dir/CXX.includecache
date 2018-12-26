@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.cpp
+Order.h
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.h
+
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.h
+string.h
+-
+

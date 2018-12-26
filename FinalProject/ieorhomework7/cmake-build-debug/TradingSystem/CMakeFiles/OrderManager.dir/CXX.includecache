@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/AppBase.h
+queue
+-
+Order.h
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.h
+BookUpdate.h
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/BookUpdate.h
+
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/BookUpdate.h
+string.h
+-
+
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.h
+string.h
+-
+
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/OrderManager.cpp
+OrderManager.h
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/OrderManager.h
+
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/OrderManager.h
+AppBase.h
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/AppBase.h
+Order.h
+/Users/ruohanwu/Desktop/ieorhomework7/TradingSystem/Order.h
+unordered_map
+-
+iostream
+-
+

@@ -1,0 +1,128 @@
+---
+title: "Analysis"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(quantmod)
+library(zoo)
+```
+
+# PART I: Implementation in R
+```{r}
+Data = read.csv(file="/Users/ruohanwu/Desktop/IBM.1min.TradesAndQuotes.20160128.csv",
+                sep=",")
+data = data.frame("Time" = Data$TimeBarStart)
+data$BidPrice = Data$OpenBidPrice
+data$AskPrice = Data$OpenAskPrice
+data$Avg = (data$BidPrice + data$AskPrice) / 2
+length = length(data$Avg)
+data$MovingAvg_5[6:length] = rollmean(data$Avg, 6)
+data$MovingAvg_20[21:length] = rollmean(data$Avg, 21)
+```
+
+```{r}
+# Signal of 1 means go long and Signal of 0 means go short
+signal = array(dim = c(length,1))
+signal[,1] = 0
+for (i in 21:length){
+  ind1 = (data$MovingAvg_5[i] > data$MovingAvg_20[i] 
+          & data$MovingAvg_5[i-1] <= data$MovingAvg_20[i-1])
+  ind2 = (data$MovingAvg_5[i] < data$MovingAvg_20[i] 
+          & data$MovingAvg_5[i-1] >= data$MovingAvg_20[i-1])
+  if (!is.na(ind1) & ind1){
+    signal[i] = 1
+  }
+  if (!is.na(ind2) & ind2){
+    signal[i] = -1
+  } 
+}
+data$signal = signal
+```
+
+
+```{r}
+#Time to go long
+print(data$Time[which(data$signal == 1)])
+#Time to go short
+print(data$Time[which(data$signal == -1)])
+#Time to pass an order (go long or go short)
+print(data$Time[which(data$signal == 1 | data$signal == -1)])
+```
+
+###Plot of the price change and the orders
+
+The black curve is the 5-minutes moving average and the red curve is the 20-minutes moving average. The red dots denote the orders corresponding to our go-long signal. And the green dots are the orders to go short. All of their values are the prices.
+\newline
+```{r}
+plot(data$MovingAvg_5, type = 'l',xlab = "Time", ylab = "price")
+lines(data$MovingAvg_20, col = 'red', type = 'l')
+points(which(data$signal == 1),data$BidPrice[which(data$signal == 1)], 
+       pch = 19, cex = 0.5, col = 'red')
+points(which(data$signal == -1),data$AskPrice[which(data$signal == -1)], 
+       pch = 19, cex = 0.5, col = 'green')
+legend("top",cex=.5,legend=c("5min Moving Avg", "20min Moving Avg", "Go Long", "Go Short"),
+       col=c("black", "red","red","green"), lty=c(1,1,0,0), pch = c(NA,NA,19,19))
+```
+
+
+
+
+# PART II: Comparision with C++ Output
+```{r}
+MyDataAvg <- read.csv(file="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/averagePrice.csv", 
+                      header=FALSE, sep=",")
+nRow = nrow(MyDataAvg)
+MyDataOrder <- read.csv(file="/Users/ruohanwu/Desktop/ieorhomework7/cmake-build-debug/output.csv", 
+                        header=FALSE, sep=",")
+BuyRow = (MyDataOrder[,4] == 1)
+SellRow = (MyDataOrder[,4] == 0)
+BuyOrder = MyDataOrder[BuyRow,]
+SellOrder = MyDataOrder[SellRow,]
+#Time to go long
+print(BuyOrder$V1)
+#Time to go short
+print(SellOrder$V1)
+```
+
+When the simulator fill all the data we pass to the simulator, the plot will look like the following, where the red dots are orders to go long and the green dots are orders to go short.
+\newline
+
+```{r}
+plot(MyDataAvg[,1],MyDataAvg[,2],type = 'l',xlab = "Time", ylab = "price")
+lines(MyDataAvg[,1],MyDataAvg[,3],type = 'l', col = 'red')
+points(BuyOrder[,2],BuyOrder[,3], col = 'red',pch = 19, cex = 0.5)
+points(SellOrder[,2],SellOrder[,3], col = 'green',pch = 19, cex = 0.5)
+legend("top",cex=.5,legend=c("5min Moving Avg", "20min Moving Avg", "Go Long", "Go Short"),
+       col=c("black", "red","red","green"), lty=c(1,1,0,0), pch = c(NA,NA,19,19))
+```
+
+We can see from the plot that the time given by the two different implementations to pass an order are the same.
+
+If we want to make the simulator more realistic, which means the simulator will not always fill an order whenever we pass it, we will introduce a probability p. So I introduce a binary random variable, which can give us the random probability p = 0.5 to fill an order that was passed to the simulator and 0.5 probability not to fill an order. We will plot such result in the following figure.
+\newline
+
+```{r}
+BuyRow_fill = (MyDataOrder[,4] == 1 & MyDataOrder[,5] == "FILLED")
+BuyRow_rjct = (MyDataOrder[,4] == 1 & MyDataOrder[,5] == "REJECTED")
+SellRow_fill = (MyDataOrder[,4] == 0 & MyDataOrder[,5] == "FILLED")
+SellRow_rjct = (MyDataOrder[,4] == 0 & MyDataOrder[,5] == "REJECTED")
+BuyOrder_fill = MyDataOrder[BuyRow_fill,]
+BuyOrder_rjct = MyDataOrder[BuyRow_rjct,]
+SellOrder_fill = MyDataOrder[SellRow_fill,]
+SellOrder_rjct = MyDataOrder[SellRow_rjct,]
+plot(MyDataAvg[,1],MyDataAvg[,2],type = 'l',xlab = "Time", ylab = "price")
+lines(MyDataAvg[,1],MyDataAvg[,3],type = 'l', col = 'red')
+points(BuyOrder_fill[,2],BuyOrder_fill[,3], col = 'red',pch = 19, cex = 0.5)
+points(BuyOrder_rjct[,2],BuyOrder_rjct[,3], col = 'red',pch = 4, cex = 0.5)
+points(SellOrder_fill[,2],SellOrder_fill[,3], col = 'green',pch = 19, cex = 0.5)
+points(SellOrder_rjct[,2],SellOrder_rjct[,3], col = 'red',pch = 4, cex = 0.5)
+legend("top",cex=.5,legend=c("5min Moving Avg", "20min Moving Avg", 
+                             "Filled Go Long","Rejected Go Long",
+                             "Filled Go Short", "Rejected Go Short"),
+       col=c("black", "red","red","red","green","green"), 
+       lty=c(1,1,0,0,0,0), pch = c(NA,NA,19,4,19,4))
+```
+
+
